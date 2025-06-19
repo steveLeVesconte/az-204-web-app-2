@@ -10,7 +10,8 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: ./published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 8.0.x
-  WORKING_DIRECTORY: .
+  WORKING_DIRECTORY: ./src/az-204-web-app-2
+
 jobs:
   build:
     runs-on: ubuntu-latest
